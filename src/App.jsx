@@ -16,7 +16,7 @@ function App() {
       {/* Navbar will be fixed */}
       <Navbar />
       {/* Main Content Wrapper (scrollable section) */}
-      <div className="pt-16 h-full overflow-y-auto scroll-smooth">
+      <div className="pt-16 h-full overflow-y-auto scroll-smooth overflow-hidden">
         <HeroSection />
         <AboutMe />
         <SkillsSection />
